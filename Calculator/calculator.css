@@ -1,0 +1,78 @@
+.entry{
+    border-radius: 50%;
+    padding: 20px;      
+    background-color: rgb(59, 58, 58);
+    color: white;
+    font-weight: bolder;
+    margin: 5px;
+    outline: none;
+    border: none;
+    font-size: 24px;
+    text-align: center;
+    height:75px;
+    width: 75px;
+}
+
+.top-three{
+    background-color: rgb(155, 154, 154);
+    color: black;
+}
+.operand{
+    background-color: orange;
+}
+
+
+.operand:focus{
+    color: orange; 
+    background-color: white;
+    transition-duration: 1s;
+}
+
+.top-three:focus{
+    background-color: rgb(221, 219, 219);
+}
+
+.num:focus{ 
+    background-color: grey; 
+}
+
+#equals{
+    background-color: orange;
+}
+
+
+#num-zero{
+    width: 165px;
+    height: 70px;
+    border-radius: 35px;
+
+}
+
+#display{
+    height: 600 px;  
+    width:  353px;
+    background-color: black;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+#clear{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+    
+}
+
+#box{
+    width: 350px;
+    background-color: black;
+    border: none;
+    color: white;   
+    font-size: 65px;
+    padding-right: 0px;
+    padding-bottom: 10px;  
+    height: 120px;
+    text-align: right;
+    border-radius: 30%;
+    outline: none;
+}
